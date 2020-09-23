@@ -19,56 +19,87 @@
     
     <title>Escuela Agroecológica de Pirque</title>
   </head>
+
   <body>
-   <div class="container-fluid espacio-md"></div>
-    <header class="container text-center">
+    <header class="container-fluid">
+      <div class="container" id="cont-header">
         <div class="row">
-            <div class="col-3">
-                <img src="/LOGO-PNG-EAP.png" alt="logo eap" id="logo-header">
-            </div>
-            <div class="col-6 row">
-               <div class="col-12"></div>
-               <div class="col-12">
-                   <h1>Escuela Agroecológica de Pirque</h1>
-               </div>             
-            </div>
-            <div class="col-3">
-                <img src="/LOGO%20FO.png" alt="logo fundacion origen" id="logo-header-2">
-            </div>
+          <div class="col-3 text-center">
+            <img src="/img/LOGO-PNG-EAP.png" alt="logo escuela" id="logo-escuela">
+          </div>
+          <div class="col-6 text-center">
+            <h1 id="titulo-header">Escuela Agroecológica de Pirque</h1>
+          </div>
+          <div class="col-3 text-center">
+            <img src="/img/LOGO FO.png" alt="logo fundacion" id="logo-fundacion">
+          </div>
         </div>
+      </div>
     </header>
-    <!-- MENU DE NAVEGACION -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">  
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <!--- MENU NAV --->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+      <a class="navbar-brand" href="#" id="nav-logo">
+        <img src="/img/LOGO PNG EAP.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
+      <div class="container text-center">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="nesc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nuestra Escuela</a>
+              <div class="dropdown-menu" aria-labelledby="nesc">
+                <a class="dropdown-item" href="">Historia</a>
+                <a class="dropdown-item" href="">PEI</a>
+                <a class="dropdown-item" href="">Galería</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="ceap" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Comunidad EAP</a>
+              <div class="dropdown-menu" aria-labelledby="ceap">
+                <a class="dropdown-item" href="">Vida Escolar</a>
+                <a class="dropdown-item" href="">Equipo Docente</a>
+                <a class="dropdown-item" href="">Centro de Alumnos</a>
+                <a class="dropdown-item" href="">Centro de Padres</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="nyp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Normas y Protocolos</a>
+              <div class="dropdown-menu" aria-labelledby="nyp">
+                <a class="dropdown-item" href="">Manual de Convivencia</a>
+                <a class="dropdown-item" href="">Manual de Evaluación</a>
+                <a class="dropdown-item" href="">Protocolos</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="fp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Formación Pedagógica</a>
+              <div class="dropdown-menu" aria-labelledby="fp">
+                <a href="" class="dropdown-item">Sello Ecológico</a>
+                <a href="" class="dropdown-item">Planes de Estudio</a>
+                <a href="" class="dropdown-item">Perfil de Egreso</a>
+                <a href="" class="dropdown-item">Proceso de titulación</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="as" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apoyos Sustentables</a>
+              <div class="dropdown-menu" aria-labelledby="as">
+                <a href="" class="dropdown-item">Programa de Apoyo Escolar</a>
+                <a href="" class="dropdown-item">Ayudantías</a>
+                <a href="" class="dropdown-item">Terapias Complementarias</a>
+                <a href="" class="dropdown-item">Redes de apoyo</a>
+                <a href="" class="dropdown-item">Biblioteca</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

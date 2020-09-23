@@ -11,19 +11,45 @@
 .espacio-lg{
     height: 100px;
 }
-
-/***  HEADER ***/
-#logo-header{
+/*** HEADER ***/
+header{
+    /*background-image:url(/img/cropped-agro-2.jpeg);
+    background-size: 100%;*/
+    padding: 2em 0 2em 0;    
+}
+#cont-header{
+    background-color: rgba(255,255,255,0.25);
+}
+#logo-escuela{
     width: 10em;
 }
-#logo-header-2{
-    width: 10em;
+#logo-fundacion{
+    width:10em;
+    margin-top:1em;
 }
-header H1{
-    font-family: 'Lato', sans-serif;
-    font-size: 2.9em; 
-    color: #518b25
+#titulo-header{
+    color:#336C07;
+    margin-top:1em;
+    font-size:3em;
+    font-weight: bold;
 }
 
-/*** MENU ***/
-
+/*** MENU NAVBAR ***/
+#nav-logo img{
+    height: 6em;
+    margin:0;
+    display:none;
+}
+#navbarNav li{
+    height:3em;
+    margin: 0 1em 0 1em;
+    font-weight: 700;
+}
+.nav-link{
+    height: 100%;
+}
+@media(min-width:992px){
+    .nav-item:hover .dropdown-menu{
+        display:block;
+    }
+}
