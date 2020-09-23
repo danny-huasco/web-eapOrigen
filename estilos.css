@@ -53,3 +53,10 @@ header{
         display:block;
     }
 }
+
+/*** BODY ***/
+#imagen-index{
+    width: 100%;
+}
+
+/*** FOOTER ***/
