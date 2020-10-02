@@ -19,6 +19,10 @@
 
     <!-- icono navegador-->
    <link rel="icon" href="/favicon%20eap.ico">
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <!-- FANCYBOX -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>  
     
     <title>Escuela Agroecológica de Pirque</title>
   </head>
@@ -107,6 +111,22 @@
     <!-- GALERÍA DE IMAGENES -->
     <section class="container">
         <h1>aqui va galeria de imagenes fancybox</h1>
+
+        <a data-fancybox="gallery" href="/img/escuela-agroecologica-de-pirque-slide-01.jpg"><img src="/img/escuela-agroecologica-de-pirque-slide-01-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/escuela-agroecologica-de-pirque-slide-02.jpg"><img src="/img/escuela-agroecologica-de-pirque-slide-02-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/escuela-agroecologica-de-pirque-slide-04.jpg"><img src="/img/escuela-agroecologica-de-pirque-slide-04-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/eventos01.jpg"><img src="/img/eventos01-272x182.jpg"></a>
+        <a data-fancybox="gallery" href="/img/eventos02.jpg"><img src="/img/eventos02-272x182.jpg"></a>
+        <a data-fancybox="gallery" href="/img/actividades01.jpg"><img src="/img/actividades01-272x182.jpg"></a>
+        <a data-fancybox="gallery" href="/img/actividades02.jpg"><img src="/img/actividades02-272x182.jpg"></a>
+        <a data-fancybox="gallery" href="/img/comunidad-escuela-agroecologica-fundacion-origen.jpg"><img src="/img/comunidad-escuela-agroecologica-fundacion-origen-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/historia01-escuela-agroecologica-fundacion-origen.jpg"><img src="/img/historia01-escuela-agroecologica-fundacion-origen-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/historia02-escuela-agroecologica-fundacion-origen.jpg"><img src="/img/historia02-escuela-agroecologica-fundacion-origen-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/postulaciones-escuela-agroecologica-fundacion-origen.jpg"><img src="/img/postulaciones-escuela-agroecologica-fundacion-origen-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/talleres01-escuela-agroecologica-fundacion-origen.jpg"><img src="/img/talleres01-escuela-agroecologica-fundacion-origen-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/talleres02-escuela-agroecologica-fundacion-origen.jpg"><img src="/img/talleres02-escuela-agroecologica-fundacion-origen-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/talleres03-escuela-agroecologica-fundacion-origen.jpg"><img src="/img/talleres03-escuela-agroecologica-fundacion-origen-300x300.jpg"></a>
+        <a data-fancybox="gallery" href="/img/talleres04-escuela-agroecologica-fundacion-origen.jpg"><img src="/img/talleres04-escuela-agroecologica-fundacion-origen-300x300.jpg"></a>
     </section>
 
     <div class="espacio-md"></div>
@@ -120,8 +140,50 @@
 
     <footer class="container-fluid">
       <div class="row">
-        <div class="container col-md">info de direccion, horarios de atencion, etc</div>
-        <div class="container col-md"> formulario de contacto</div>
+        <div class="container col-md-6 row">
+          <div class="col-md-8 text-center">
+            <div>
+              <img src="" alt="">
+              <p>Email</p>
+            </div>
+            <div>
+              <img src="" alt="">
+              <p>Teléfono</p>
+            </div>
+            <div>
+              <img src="" alt="">
+              <p>Dirección</p>
+            </div>
+          </div>
+          <div class="col-md-4 row" id="media-section">
+            <div class="col">
+              <img src="/img/face-media-logo.png" alt="Facebook" class="media-logo">
+            </div>
+            <div class="col">
+              <img src="/img/instagram-media-logo.png" alt="Instagram" class="media-logo">
+            </div>
+          </div>
+        </div>
+        <div class="container col-md-6">
+          <form action="" method="post">
+            <h3 class="text-center">¡Escríbenos un mensaje!</h3>            
+            <div class="form-group row">
+              <div class="col-md">
+                <input type="text" class="form-control contacto" id="input-nombre" aria-describedby="nombre" placeholder="Nombre">
+              </div>
+              <div class="col-md">
+                <input type="email" class="form-control contacto" id="input-email" aria-describedby="email" placeholder="Email">
+              </div>                      
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="input-mensaje" rows="3" aria-describedby="mensaje" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+            <button class="btn btn-light btn-lg" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+      <div class="text-center" id="ultima-linea">
+        <p>copyright C Todos los derechos reservados entre el colegio y yo.</p>
       </div>
     </footer>
 

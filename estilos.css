@@ -33,7 +33,6 @@ header{
     font-size:3em;
     font-weight: bold;
 }
-
 /*** MENU NAVBAR ***/
 #nav-logo img{
     height: 6em;
@@ -54,9 +53,29 @@ header{
     }
 }
 
+/*** FOOTER ***/
+footer{
+    background-color: olivedrab;
+    padding:0;
+}
+#ultima-linea p{
+    font-size: .6em;
+}
+.media-logo{
+    width: 2em;
+}
+#media-section{
+    height: 100%;
+}
+#media-section div{
+    vertical-align: middle;
+}
+.contacto{
+    width:100%;
+}
+
+/***********INDEX***********/
 /*** BODY ***/
 #imagen-index{
     width: 100%;
 }
-
-/*** FOOTER ***/
